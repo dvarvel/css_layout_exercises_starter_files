@@ -1,0 +1,46 @@
+div {
+	border: 1px black solid;
+	font-size: 0;
+}
+
+div.mainbox {
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.line1 {
+	height: 200px;
+	display: inline-block;
+}
+
+div.green {
+	background-color: green;
+	width: 50%;
+}
+
+div.blue {
+	background-color: blue;
+	width: 50%;
+}
+
+div.line2 {
+	height: 300px;
+	display: inline-block;
+}
+
+div.grey {
+	background-color: grey;
+	width: 33.33%;
+}
+
+div.black {
+	background-color: black;
+	width: 33.33%;
+}
+
+div.camel {
+	background-color: orange;
+	width: 33.33%;
+}
