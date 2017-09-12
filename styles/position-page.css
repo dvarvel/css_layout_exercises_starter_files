@@ -2,60 +2,57 @@ nav {
 	position: fixed;
 	background-color: grey;
 	width: 100%;
-	padding-left: 60px;
-	padding-right: 60px;
-}
-
-.links {
-	padding-left: 180px;
-}
-
-nav li {
-	display: inline-block;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 5px;
 }
 
 .logo {
+	height: 50px;
 	border-radius: 50%;
-	position: absolute;
-	left: 60px;
-	height: 60px;
 	border: 1px black solid;
+	position: absolute;
 }
 
-main {
-	padding-top: 300px;
+ul {
+	display: inline-block;
+	margin-left: 60px;
 }
 
-div.greenbox {
+li {
+	display: inline-block;
+	padding: 0px;
+}
+
+.greenbox {
 	border: 10px green dotted;
 	height: 300px;
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.cat {
-	height: 200px;
-	width: 200px;
 	position: relative;
-	left: -100px;
-	top: -100px;
-}
-
-.dog {
-	height: 200px;
-	width: 200px;
-	position: relative;
-	left: 300px;
 	top: 200px;
 }
 
-img.background { 
+main>img {
+	height: 200px;
+	width: 200px;
+}
+
+.upperleft {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}
+
+.lowerright {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+}
+
+.bg {
 	width: 100%;
-	min-height:100%;
-	position: fixed;
-	top:0;
-	left:0;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
